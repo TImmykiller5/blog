@@ -1,0 +1,27 @@
+.nav{
+    background-color: #323232;
+}
+
+.nav-item-i{
+  background-color: #272727;
+}
+
+.active button{
+  border-radius: 10px;
+}
+
+.nav-user{
+  margin-top: 0.5rem;
+}
+
+
+@media screen and (max-width: 600px) {
+  .nav-user{
+    margin-top: 0rem;
+  }
+
+ .nav-trending{
+  display: none;
+  }
+  
+}

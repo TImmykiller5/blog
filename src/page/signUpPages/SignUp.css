@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Inter:wght@100;200;300;400;500;600;700&family=Lexend+Deca:wght@100;200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600;700&display=swap');
+
+.SignUpForm{
+    display: grid;
+    grid-template-columns: 2fr 5fr;
+    height: 100vh;
+    background: #272727;
+    
+}
+
+.SignUpLeft{
+    border-right: 4px solid #6EEB83;
+    background-image: url("./SUbgsmall.jpg") ;
+    background-size: cover;
+    
+
+}
+
+.SignUpRight h1{
+    font-family:'DM Serif Display', 'Inter';
+    color: #FFFFFF;
+    font-weight: 100;
+    font-size: 2.1rem;
+    /* margin: 0; */
+    
+    /* align-self: start; */
+
+}
+
+.SignUpRight p{
+    margin-top: 0;
+    font-weight: 300;
+    /* font-family:'DM Serif Display', 'Inter'; */
+
+}
+
+.SignUpRight{
+    display: block;
+    width: 400px; 
+    margin: auto;   
+
+}
+
+.SignUpRight input{
+    width: 100%;
+    /* outline: #6EEB83; */
+    background-color: #272727;
+    box-shadow: none;
+    border: #6EEB83 1px solid;
+    height: 50px;
+    padding: 0;
+    border-radius: 2px;
+    color: #FFFFFF;
+    padding: 10px 10px 10px 10px;
+    /* font-size: 30px; */
+}
+
+.userformHeader{
+    display: flex;
+    
+
+}
+
+.actualForm{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.userFormFooter{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.SignUpRight button{
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.userFormFooterLeft{
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #FFFFFF;
+}
+
+@media screen and (max-width: 600px) {
+    .SignUpRight{
+        display: block;
+        width: 80%; 
+        margin: auto;   
+    
+    }
+    .SignUpRight button{
+        width: 20vw;
+    }
+    .userFormFooter{
+        gap: 10px;
+    }
+}

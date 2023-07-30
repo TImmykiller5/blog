@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Inter:wght@100;200;300;400;500;600;700&family=Lexend+Deca:wght@100;200;300;400;500;600;700&display=swap');
+
+
+body{
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: 'Lexend Deca', sans-serif;
+  color: #A5A5A5;
+  background: #272727;
+
+}
+
+#root{
+  height: 100%;
+}
+
+.App{
+  height: 100%;
+}
+
+button{
+  background-color: #6EEB83;
+  color: #000000;
+  font-size: 1rem;
+  font-weight: 700;
+  padding: 10px 12px;
+  border-radius: 3px;
+  outline: none;
+  margin: 0;
+}
+
+.error{
+  background-color: red;
+  color: #000000;
+  font-size: 1rem;
+  font-weight: 700;
+  padding: 10px 12px;
+  border-radius: 3px;
+  outline: none;
+  margin: 0;
+  position: fixed;
+  top: 0px;
+  width: 100vw;
+  left: 0px;
+}
+
+.tag-input{
+  border: none;
+  all: unset;
+  width: 100%;
+  background-color: white;
+  height: 2rem;
+  border-radius: 0.5rem;
+}
+
+.tag-input-container{
+  color: #4d4c4c;
+  overflow: auto;
+  
+  padding: 1rem 1rem;
+  border: 2px solid #4d4c4c;
+}
+
+.tag-cont{
+  background-color: #6EEB83;
+}
+.button-tag{
+  all: unset;
+  padding: 10px 5px;
+  color: #4d4c4c;
+  font-weight: 600;
+}
+
+.blog-layout{
+  display: flex;
+  gap: 5rem;
+}
+
+.nav-outer-cont{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: fixed;
+  height: 100vh;
+}
+
+.nav-top{
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (max-width: 600px) {
+  .blog-layout{
+    display: block;
+    flex-direction: column;
+    width: 100vw;
+    height: 125vh;
+    /* gap: 5rem; */
+    /* grid-template-rows: 1fr 200fr; */
+  }
+  body {
+    /* background-color: lightgreen; */
+  }
+  .nav-outer-cont{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 100px;
+    align-items: center;
+    width: fit-content;
+    border-radius: 1rem;
+    
+    
+  }
+  .nav-top{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  .nav-cont{
+    position: fixed;
+    bottom: 110px;
+    /* top: 90vh; */
+    /* height: 100px; */
+    width: 100%;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    z-index: 1;
+  }
+
+  
+}
+

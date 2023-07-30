@@ -1,0 +1,19 @@
+.tox .tox-notification--in {
+    display: none;
+    opacity: 0!; 
+}
+
+.trial{
+    width: 70vw;
+}
+.tag-input{
+}
+
+@media screen and (max-width: 600px) {
+    /* .trial{
+        width: 90vw;
+    } */
+    .tag-input{
+        overflow: auto;
+    }
+}
