@@ -69,7 +69,7 @@ function NewsOutline() {
                     <Link to={`/blog/${post.id}`}>{post.title}</Link>
                   </h1>
                   <p>
-                    {post.text.replaceAll('</p>', '.').replaceAll(htmlTagRegex, '').split(" ").slice(0, 70).join(" ")}{" "}
+                    {post.text.replaceAll('</p>', '.').replaceAll(htmlTagRegex, '').replaceAll('&nbsp;', ' ').split(" ").slice(0, 70).join(" ")}{" "}
                     <Link to={`/blog/${post.id}`} className="read-more">...read more</Link>
                   </p>
                 </div>
