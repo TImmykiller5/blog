@@ -24,7 +24,7 @@ function AddPost() {
   const tagHandler = (e) => {
     const { key, which } = e;
     console.log(key, which)
-    if (key == " " || key === "," || key === "32" || key === "188") {
+    if (key == " " || key === "," || key === 32 || key === 188) {
       e.preventDefault();
       console.log(input);
       setTags([...tags, input]);
