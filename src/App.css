@@ -95,7 +95,7 @@ button{
     display: block;
     flex-direction: column;
     width: 100vw;
-    height: 125vh;
+    /* height: 125vh; */
     /* gap: 5rem; */
     /* grid-template-rows: 1fr 200fr; */
   }
@@ -107,12 +107,14 @@ button{
     flex-direction: row;
     justify-content: center;
     height: 100px;
+    overflow: hidden;
     align-items: center;
     width: fit-content;
     border-radius: 1rem;
-    
-    
   }
+
+  
+
   .nav-top{
     display: flex;
     flex-direction: row;
