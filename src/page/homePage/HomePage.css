@@ -57,5 +57,10 @@ svg{
         padding: 0px 2px 0px 2px;
         font-size: smaller;
     }
+
+    .content-header{
+        margin: 5px 5px 5px 5px;
+        font-size: 0.8rem;
+    }
     
 }
