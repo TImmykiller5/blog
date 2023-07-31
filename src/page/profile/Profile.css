@@ -139,15 +139,31 @@ svg{
     
     }
     .profile-cont{
-        margin: 0 1rem 0 0rem;
+        margin: 0 1rem 0 1rem;
 
     }
     .NewsOutline{
         width: fit-content;
+        gap: 15px;
     }
     .NewsOutline-tags{
         flex-wrap: wrap;
     }
-
+    .NewsOutline img{
+        width: 20px;
+    }
+    .modal{
+        position: fixed;
+        top: 30vh;
+        left: 5vw;
+        background-color: rgb(0, 0, 0);
+        text-align: center;
+        /* border: 1px solid red; */
+        height: 20vh;
+        padding: 4rem;
+        opacity: 1;
+        z-index: 11;
+        
+    }
     
 }

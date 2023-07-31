@@ -93,7 +93,8 @@ button{
 @media screen and (max-width: 600px) {
   
   .outlet{
-    height: 92vh;
+    /* height: 92%; */
+    margin-bottom: 50px;
     /* position: fixed; */
     overflow-y: scroll;
 
@@ -110,7 +111,7 @@ button{
   .nav-outer-cont{
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
     height: 50px;
     overflow: hidden;
     align-items: center;
@@ -123,14 +124,15 @@ button{
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
+    width: 76%;
+    justify-content: space-between;
   }
   .nav-cont{
     position:fixed;
     display: block;
     bottom: 0px;
     /* top: 90vh; */
-    height: 7vh;
+    height: 50px;
     width: 100%;
     /* display: flex; */
     /* align-items: center; */
