@@ -43,13 +43,13 @@ svg{
 }
 
 @media screen and (max-width: 600px) {
-    .content{
+    /* .content{
         width: 100%;
-        padding: 0px 0px 0px 0px;
+        padding: 0px 0px 0px 10px;
         height: 100%;
         margin: 0px 0px 0px 0px;
         overflow-x:hidden;
-    }
+    } */
     .news-cont{
         width: auto;
         display: block;

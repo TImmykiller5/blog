@@ -23,10 +23,10 @@ function AddPost() {
  
   const tagHandler = (e) => {
     const { key, which } = e;
-    console.log(key, which)
+    which === 32 &&console.log(e)
     if (key == " " || key === "," || which === 32 || which === 188) {
       e.preventDefault();
-      console.log(input);
+      // console.log(input);
       setTags([...tags, input]);
       console.log(tags);
       setInput("");
