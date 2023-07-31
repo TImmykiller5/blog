@@ -26,7 +26,7 @@ function Navbar() {
         </NavLink>
         <NavLink to={"/"}>
         <div className="nav-item p-1.5">
-          <NavbarItem size="60"  icon="/images/home.svg" text="create" />
+          <NavbarItem size="60"  icon="/images/home.svg" text="home" />
         </div>
         </NavLink>
         <div className="nav-item p-1.5">

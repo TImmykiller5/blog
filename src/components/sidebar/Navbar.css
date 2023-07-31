@@ -23,5 +23,19 @@
  .nav-trending{
   display: none;
   }
-  
+  .navbarItem img{
+    width: 20px;
+  }
+
+  .navbarItem div{
+    font-size: 1rem;
+  }
+  .navbarItem{
+    height: 40px;
+    width: 40px;
+  } 
+  .home {
+    width: 80px !important;
+    height: 80px !important;
+  }
 }
